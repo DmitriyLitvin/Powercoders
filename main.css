@@ -1,0 +1,111 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#guide {
+    color: #ffffff;
+}
+
+header {
+    background-color: #FAAC58;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#welcome {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.drink-list {
+    height: 600px;
+}
+
+.dessert-list {
+    height: 600px;
+}
+
+.appetizer-list {
+    height: 600px;
+}
+
+.contact-info {
+    height: 600px;
+}
+
+#references {
+    height: 49px;
+    background-color: mediumseagreen;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    font-size: 15px;
+    height: 50px;
+    padding: 5px;
+    background-color: #FAAC58;
+    color: #ffffff;
+}
+
+div nav ul li {
+    position: relative;
+    float: left;
+}
+
+div nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+div nav ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: #000;
+    font-size: 16px;
+    display: block;
+}
+
+div nav ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: #fff;
+    display: none;
+}
+
+nav ul li ul li {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
