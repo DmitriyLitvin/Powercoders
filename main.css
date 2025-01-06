@@ -19,10 +19,15 @@ header {
 }
 
 #welcome {
-    margin-left: 200px;
-    margin-right: 200px;
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
 }
+
+#welcome header {
+    width: 800px;
+}
+
 
 .container {
     height: 600px;
@@ -48,7 +53,6 @@ header {
 }
 
 #references {
-    height: 49px;
     background-color: mediumseagreen;
     display: flex;
     text-align: center;
